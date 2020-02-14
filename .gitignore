@@ -1,0 +1,28 @@
+# everything
+/*
+
+.gradle
+# IntelliJ
+/build
+/run
+/out
+.idea
+*.iml
+*.ipr
+*.iws
+classes/
+
+
+# folders
+!/gradle/wrapper
+!/src
+
+# files
+!/.gitignore
+!/LICENSE.txt
+!/license-header.txt
+!/README.md
+!/gradle.properties
+!/build.gradle
+!/gradlew
+!/gradlew.bat

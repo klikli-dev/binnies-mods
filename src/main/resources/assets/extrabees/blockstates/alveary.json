@@ -1,0 +1,54 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "cube_column"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}],
+    "type":{
+      "mutator": {
+        "textures":{
+          "end": "extrabees:tile/alveary/alveary_mutator_top",
+          "side": "extrabees:tile/alveary/alveary_mutator_side"
+        }
+      },
+      "frame": {
+        "textures":{
+          "end": "extrabees:tile/alveary/alveary_frame_top",
+          "side": "extrabees:tile/alveary/alveary_frame_side"
+        }
+      },
+      "rainshield": {
+        "textures":{
+          "end": "extrabees:tile/alveary/alveary_rainshield_top",
+          "side": "extrabees:tile/alveary/alveary_rainshield_side"
+        }
+      },
+      "lighting": {
+        "textures":{
+          "end": "extrabees:tile/alveary/alveary_lighting_top",
+          "side": "extrabees:tile/alveary/alveary_lighting_side"
+        }
+      },
+      "stimulator": {
+        "textures":{
+          "end": "extrabees:tile/alveary/alveary_stimulator_top",
+          "side": "extrabees:tile/alveary/alveary_stimulator_side"
+        }
+      },
+      "hatchery": {
+        "textures":{
+          "end": "extrabees:tile/alveary/alveary_hatchery_top",
+          "side": "extrabees:tile/alveary/alveary_hatchery_side"
+        }
+      },
+      "transmission": {
+        "textures":{
+          "end": "extrabees:tile/alveary/alveary_transmission_top",
+          "side": "extrabees:tile/alveary/alveary_transmission_side"
+        }
+      }
+    }
+  }
+}
